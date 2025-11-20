@@ -1,0 +1,93 @@
+import '../models/menu_model.dart';
+
+List<MenuModel> menuData = [
+  MenuModel(
+    name: 'Nasi Goreng Spesial',
+    image: 'assets/images/nasigoreng.jpg',
+    price: 25000,
+    description: 'Nasi goreng dengan bumbu spesial dan topping lengkap.',
+    category: 'Makanan',
+    isRecommended: true,
+  ),
+  MenuModel(
+    name: 'Ayam Bakar Madu',
+    image: 'assets/images/ayambakar.jpg',
+    price: 30000,
+    description: 'Ayam bakar lembut dengan olesan madu premium.',
+    category: 'Makanan',
+    isRecommended: true,
+  ),
+  MenuModel(
+    name: 'Nasi Ayam Kremes',
+    image: 'assets/images/nasiayamkremes.jpg',
+    price: 40000,
+    description: 'Ayam goreng dengan balutan kremes renyah khas Indonesia.',
+    category: 'Makanan',
+    isRecommended: true,
+  ),
+  MenuModel(
+    name: 'Ikan Bakar Gurame',
+    image: 'assets/images/ikanbakargurame.jpg',
+    price: 75000,
+    description: 'Gurame segar dibakar dengan bumbu tradisional sederhana.',
+    category: 'Makanan',
+  ),
+  MenuModel(
+    name: 'Sate Ayam',
+    image: 'assets/images/sateayam.jpg',
+    price: 25000,
+    description: 'Potongan daging ayam berbumbu khas, dibakar sempurna.',
+    category: 'Makanan',
+  ),
+  MenuModel(
+    name: 'Sate Sapi',
+    image: 'assets/images/satesapi.jpg',
+    price: 35000,
+    description: 'Daging sapi berbumbu khas, dibakar dengan aroma smokey.',
+    category: 'Makanan',
+  ),
+  MenuModel(
+    name: 'Sate Kambing',
+    image: 'assets/images/satekambing.jpg',
+    price: 40000,
+    description: 'Daging kambing lembut berbumbu, dibakar dengan baik.',
+    category: 'Makanan',
+  ),
+  MenuModel(
+    name: 'Nasi Putih',
+    image: 'assets/images/nasiputih.jpg',
+    price: 8000,
+    description: 'Nasi putih pulen dan hangat.',
+    category: 'Makanan',
+  ),
+
+  MenuModel(
+    name: 'Es Teh Manis',
+    image: 'assets/images/esteh.jpg',
+    price: 7000,
+    description: 'Es teh segar dengan rasa manis pas.',
+    category: 'Minuman',
+  ),
+  MenuModel(
+    name: 'Es Jeruk Peras',
+    image: 'assets/images/esjeruk.jpg',
+    price: 15000,
+    description: 'Jus jeruk segar diperas langsung, dingin dan menyegarkan.',
+    category: 'Minuman',
+    isRecommended: true,
+  ),
+  MenuModel(
+    name: 'Es Lemonade',
+    image: 'assets/images/eslemonade.jpg',
+    price: 15000,
+    description: 'Minuman lemon segar dengan gula dan es.',
+    category: 'Minuman',
+  ),
+  MenuModel(
+    name: 'Air Mineral',
+    image: 'assets/images/airmineral.jpg',
+    price: 5000,
+    description: 'Air mineral dingin.',
+    category: 'Minuman',
+  ),
+];
